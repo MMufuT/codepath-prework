@@ -15,7 +15,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var numPetsLabel: UILabel!
     @IBOutlet weak var numPetsStepper: UIStepper!
     @IBOutlet weak var morePetsSwitch: UISwitch!
+    @IBOutlet weak var introduceButton: UIButton!
     
+    @IBOutlet weak var morePetsLabel: UILabel!
+    @IBOutlet weak var petsLabel: UILabel!
+    @IBOutlet weak var schoolNameLabel: UILabel!
+    @IBOutlet weak var lastNameLabel: UILabel!
+    @IBOutlet weak var firstNameLabel: UILabel!
     @IBAction func stepperDidChange(_ sender: UIStepper) {
         numPetsLabel.text = "\(Int(sender.value))"
     }
@@ -60,7 +66,39 @@ class ViewController: UIViewController {
         }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        numPetsStepper.layer.cornerRadius = 12
+        numPetsStepper.layer.masksToBounds = true
+        
+        introduceButton.layer.cornerRadius = 12
+        introduceButton.layer.masksToBounds = true;
+        
+        firstNameTextField.layer.cornerRadius = 12
+        firstNameTextField.layer.masksToBounds = true;
+        firstNameLabel.layer.cornerRadius = 12
+        firstNameLabel.layer.masksToBounds = true;
+
+        
+        lastNameTextField.layer.cornerRadius = 12
+        lastNameTextField.layer.masksToBounds = true;
+        lastNameLabel.layer.cornerRadius = 12
+        lastNameLabel.layer.masksToBounds = true;
+        
+        schoolNameTextField.layer.cornerRadius = 12
+        schoolNameTextField.layer.masksToBounds = true;
+        schoolNameLabel.layer.cornerRadius = 12
+        schoolNameLabel.layer.masksToBounds = true;
+        
+        petsLabel.layer.cornerRadius = 5
+        petsLabel.layer.masksToBounds = true;
+        numPetsLabel.layer.cornerRadius = 5
+        numPetsLabel.layer.masksToBounds = true;
+        
+        morePetsLabel.layer.cornerRadius = 5
+        morePetsLabel.layer.masksToBounds = true;
+        
+        
+        
+        
     }
 
 

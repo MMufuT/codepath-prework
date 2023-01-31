@@ -17,4 +17,6 @@ Required Features
 Optional Features
 []1. User can tap a button to change the color of the background view
 []2. User can select on additional buttons that provide more info about the user. Example: more textfields, a different alert box, etc.
-[]3. Any stylistic changes that are not default options (Comment this here)
+[x]3. Any stylistic changes that are not default options (Comment this here)
+        //Added custom image background of Case Western Reserve University Campus
+        //Rounded all the buttons and fields to give the app a more smooth and less choppy look to the user
