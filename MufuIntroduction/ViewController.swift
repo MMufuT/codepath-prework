@@ -39,6 +39,9 @@ class ViewController: UIViewController {
         if(numPetsLabel.text == "0"){
             howManyDogs = "no dogs."
         }
+        else if(numPetsLabel.text == "1"){
+            howManyDogs = "1 dog."
+        }
         else{
             howManyDogs = "\(numPetsLabel.text!) dogs."
         }
