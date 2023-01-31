@@ -4,7 +4,7 @@ App Description:
 App that introduces the student (user) via alert box based on the app's fields which are manipulated by the user.
 
 App Walk-though:
-https://github.com/MMufuT/codepath-prework/blob/main/CodePath%20pre-work%20tutorial.gif
+https://imgur.com/4i9V3P7
 
 Required Features
 [x] 1. App displays an image of a school's logo
